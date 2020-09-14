@@ -82,6 +82,7 @@ public void Login() throws InterruptedException, IOException, ParseException{
 	}
 	Thread.sleep(4000);
 	driver.findElement(By.xpath(".//*[@data-testid='sign_up_button']")).click();
+	Thread.sleep(4000);
 }
 
 
